@@ -1,0 +1,56 @@
+# SyntaxError_1
+print(not_completed
+# File "<stdin>", line 1
+#   print(not_completed
+#         ^^^^^^^^^^^^
+# SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+# SyntaxError_2
+a = int(int(int(3)3)3)3
+# File "<stdin>", line 1
+#   a = int(int(int(3)3)3)3
+#               ^^^^^^^
+# SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+# SyntaxError_3
+print(if a > 10: print(f))
+#  File "<stdin>", line 1
+#    print(if a > 10: print(f))
+#          ^^
+#SyntaxError: invalid syntax
+
+
+# ValueError_1
+x = 'valueerror'
+int(x)
+#Traceback (most recent call last):
+# File "<stdin>", line 1, in <module>
+#ValueError: invalid literal for int() with base 10: 'valueerror'
+
+# ValueError_2
+a = int(input("입력: "))
+입력: a = int(input("입력: "))
+#Traceback (most recent call last):
+#  File "<stdin>", line 1, in <module>
+#ValueError: invalid literal for int() with base 10: 'a= int(input("입력: "))'
+
+
+# TypeError_1
+a = '123'
+b = 9
+print( a + b)
+# Traceback (most recent call last):
+# File "<stdin>", line 1, in <module>
+#TypeError: can only concatenate str (not "int") to str
+
+#TypeError_2
+print(1,2,3,4,sep=2)
+#Traceback (most recent call last):
+#  File "<stdin>", line 1, in <module>
+#TypeError: sep must be None or a string, not int
+
+#TypeError_3
+a = '123' % 5
+#Traceback (most recent call last):
+#  File "<stdin>", line 1, in <module>
+#TypeError: not all arguments converted during string formatting

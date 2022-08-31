@@ -1,0 +1,5 @@
+-cpu, main memory, secondary memory 가 각각 무엇이지 설명해주세요
+
+CPU-프로그램 실행과 데이터 처리라는 중추적인 기능 담당
+Main Memory-빠르고 작은 일시적인 기억장치
+Secondary Memory-느리고 큰 영구저장 기억장치

@@ -1,0 +1,31 @@
+#SyntaxError_2_Debugging
+#int에는 숫자로 보여지는 문자형 또는 자료형을 입력할 수 있다.
+a = int(int(int(3)))
+
+#SyntaxError_3_Debugging
+# print에는 if 조건문을 넣을수 없다 ?
+print(f)
+
+#ValueError_1_Debugging
+#숫자형으로 만들지 못하는 자료형은 int로 변환될 수 없음
+x = 'valueerror'
+str(x)
+
+#ValueError_2_Debugging
+# input의 입력에는 sring만 들어갈 수 있다.
+a = int(input("입력: "))
+print(a)
+
+#TypeError_1_Debugging
+#연산은 같은 자료형끼리만 가능함
+a = '123'
+b = '9'
+print( a + b)
+
+#TypeError_2_Debugging
+#seperation 오류 : str만 가능
+print(1,2,3,4,sep="2")
+
+#TypeError_3_Debugging
+#string을 숫자형으로 바꾸기
+a = 123 % 5
