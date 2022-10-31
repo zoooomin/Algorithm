@@ -15,8 +15,6 @@ def dfs(l,s):
 
         if sum < res:
             res = sum
-
-
     else:
         for i in range(s, len(pz)):
             cb[l] = i
