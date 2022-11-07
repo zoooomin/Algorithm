@@ -22,10 +22,8 @@ def dfs(l,s):
 if __name__ == '__main__':
     n, m = map(int, input().split())
     board = [list(map(int, input().split())) for _ in range(n)]
-    #집 좌표정보
-    hs = []
-    #피자집 좌표정보
-    pz = []
+    hs = [] #집 좌표
+    pz = [] #피자집 좌표
     cb = [0]*m
     res = 2147000000
     for i in range(n):
